@@ -1,0 +1,1 @@
+time,sunriseTime,sunsetTime,moonPhase,precipIntensity,precipIntensityMax,precipProbability,temperatureMin,temperatureMinTime,temperatureMax,temperatureMaxTime,dewPoint,windSpeed,windBearing,cloudCover,humidity,pressure,ozone 

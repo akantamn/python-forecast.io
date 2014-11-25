@@ -26,7 +26,7 @@ def load_forecast(key, lat, lng, time=None, units="auto", lazy=False,
         url = 'https://api.forecast.io/forecast/%s/%s,%s' \
               '?units=%s' % (key, lat, lng, units,)
     else:
-        url_time = str(int(Time.mktime(time.timetuple())))
+        url_time = str(int(time))
         url = 'https://api.forecast.io/forecast/%s/%s,%s,%s' \
               '?units=%s' % (key, lat, lng, url_time,
               units,)
